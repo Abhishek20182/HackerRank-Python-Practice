@@ -8,4 +8,4 @@ if __name__ == '__main__':
         
     query_name = input()
     total = sum(student_marks[query_name])/len(student_marks[query_name])
-    print('{0:.2f}'.format(total))
+    print("{0:.2f}".format(total))
